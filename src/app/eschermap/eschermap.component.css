@@ -1,0 +1,29 @@
+.escher-container{
+  background-color: yellow,
+}
+
+p{
+  margin-left: 5%;
+}
+
+ul{
+  margin-left: 5%;
+}
+
+button{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+input{
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+}
+
+#map_container_3{
+  height: 750px;
+  width: 70%;
+  overflow: hidden;
+  margin-left: 15%;
+}

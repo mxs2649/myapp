@@ -1,0 +1,23 @@
+<p>
+  Node count:
+</p>
+<ul *ngFor = "let node of nodes">
+  <li>{{node.name}}: {{node.count}}</li>
+</ul>
+<button (click)="changeColor('green')">Green</button>
+<button (click)="changeColor('#334E75')">Default</button>
+<input type="file" name="Data File" id="json_file" (change)="checkextension($event)"/>
+<span *ngIf="fileError" >Please select valid json file</span>
+<!-- <span >{{jsonFile}}</span> -->
+<section class="metaboliteVisualization">
+  <!-- <div *ngIf="reaction" class="reactionVisualizationChild col-md-8 col-md-offset-2">
+  </div> -->
+  <div class="row_escher">
+    <div class="col-md-12">
+      <!-- <visualization [nodes]="nodes" [links]="links"></visualization> -->
+      <figure>
+        <div class="escher-container" id="map_container_3" style=""></div>
+      </figure>
+    </div>
+  </div>
+</section>
